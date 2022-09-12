@@ -4,6 +4,8 @@
 基于 nginx 官网源码编译打包的 nginx 容器，添加了 ngx_http_proxy_connect_module 代理模块。  
 使用方法详见： https://github.com/chobits/ngx_http_proxy_connect_module
 
+我制作好的 docker 镜像，可以直接使用，详见：https://hub.docker.com/repository/docker/xzxiaoshan/nginx-httpproxy
+
 如下为 docker-compose.yaml 示例：
 ```
 version: '3.7'
