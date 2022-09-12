@@ -37,7 +37,7 @@ services:
         max-file: "20"
 ```
 
-nginx.conf
+/opt/soft/nginx/nginx.conf
 ```
 user  nginx;
 worker_processes  auto;
@@ -74,7 +74,7 @@ http {
 }
 ```
 
-conf.d/http-proxy.conf
+/opt/soft/nginx/conf.d/http-proxy.conf
 ```
 map $http_x_forwarded_proto $real_scheme {
   default $http_x_forwarded_proto;
