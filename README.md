@@ -41,7 +41,8 @@ user  nginx;
 worker_processes  auto;
 
 error_log  /var/log/nginx/error.log notice;
-pid        /var/run/nginx.pid;
+#pid        /var/run/nginx.pid;
+pid        /usr/local/nginx/nginx.pid;
 
 
 events {
